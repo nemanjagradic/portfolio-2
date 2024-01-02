@@ -44,7 +44,7 @@ const Contact = () => {
           <h2 className="mb-1 w-fit bg-green px-2 py-0.5 text-sm text-white">
             Phone:
           </h2>
-          <p className="text-sm text-lightBlack">+381 628 155263</p>
+          <p className="text-sm text-lightBlack">+381 628155263</p>
         </div>
         <div className="fading-border-to-c relative mb-2 basis-full items-center justify-between pb-3 sm:basis-[45%] sm:pb-1">
           <h2 className="mb-1 w-fit bg-green px-2 py-0.5 text-sm text-white">
