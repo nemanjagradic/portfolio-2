@@ -3,13 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.gradient-container {
-  background: linear-gradient(to bottom right, #50a3a2, #00cc66);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 html,
 body {
   height: 100%;
