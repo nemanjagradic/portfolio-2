@@ -14,7 +14,7 @@ const Profile = ({ changeSection, curSection }) => {
             <div className="relative h-[60%] w-full overflow-hidden rounded-t bg-stone-200 before:absolute before:-bottom-[86%] before:-left-[130px] before:z-10 before:h-full before:w-[85%] before:rotate-[14deg] before:bg-white before:content-[''] after:absolute after:-bottom-[86%] after:-right-[130px] after:z-10 after:h-full after:w-[85%] after:-rotate-[14deg] after:bg-white after:content-['']">
               <img
                 className="h-full w-full"
-                src="./images/portfolio-img.png"
+                src="./images/portfolio-img.jpeg"
                 alt="profile"
               />
             </div>
