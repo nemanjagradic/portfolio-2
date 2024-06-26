@@ -23,7 +23,7 @@ const Resume = () => {
             age={{ from: "2024", to: " 2024" }}
             position="Web developer"
             place="Chingu"
-            desc="Collaborated remotely with a team to develop a matching app using React. Contributed to designing, coding, and testing the application, ensuring a pleasing user experience and effective color matching functionality."
+            desc="Collaborated remotely with a team to develop a color matching app using React. Contributed to designing, coding, and testing the application, ensuring a pleasing user experience and effective color matching functionality."
           />
           <ResumeCard
             age={{ from: "2021", to: " 2022" }}
