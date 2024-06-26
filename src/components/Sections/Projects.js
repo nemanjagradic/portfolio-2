@@ -23,6 +23,14 @@ const Projects = () => {
             githubLink="https://github.com/nemanjagradic/Ico-cryptocurrency"
             netlifyLink="https://ico-crypto.netlify.app/"
           />
+          <ProjectCard
+            projectImg="./images/project-5.png"
+            title="GlowGuide - Color Matching Website"
+            desc="GlowGuide is a web application that gives users various option like choosing number of colors and color harmony, so they can get best matching colors based on a chosen context."
+            programs={["React", "CSS"]}
+            githubLink="https://github.com/chingu-voyages/v49-tier2-team-14"
+            netlifyLink="https://glowguideforcolors.netlify.app/"
+          />
         </div>
         <div className="h-full basis-full sm:flex-1">
           <ProjectCard
