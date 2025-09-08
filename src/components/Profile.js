@@ -23,9 +23,7 @@ const Profile = ({ changeSection, curSection }) => {
                 <h1 className="pt-5 text-center text-3xl font-semibold tracking-wide">
                   Nemanja Gradic
                 </h1>
-                <h2 className="mb-4 mt-2.5 text-green">
-                  Front-End Web Developer
-                </h2>
+                <h2 className="mb-4 mt-2.5 text-green">Front-End Developer</h2>
                 <a
                   href="https://www.linkedin.com/in/nemanja-gradic-33230b1bb/"
                   target="_blank"

@@ -8,13 +8,13 @@ const About = () => {
         <div className="sm:fading-border-to-b relative basis-full py-6 sm:flex-1">
           <p className="pr-6 leading-7 text-lightBlack">
             <span className="font-semibold">Hello! I'm Nemanja Gradic.</span>
-            <br></br>A dedicated junior front-end React developer with a passion
-            for crafting seamless digital experiences. I embrace the fusion of
-            creativity and precision, focusing on creating responsive,
-            accessible, and aesthetically pleasing web applications, while also
-            having experience with backend development to build full-stack
-            solutions. I relish the opportunity to contribute to innovative
-            projects and thrive in dynamic team environments.
+            <br></br>A dedicated Front-End Developer with a passion for crafting
+            seamless digital experiences. I embrace the fusion of creativity and
+            precision, focusing on creating responsive, accessible, and
+            aesthetically pleasing web applications, while also having
+            experience with backend development to build full-stack solutions. I
+            relish the opportunity to contribute to innovative projects and
+            thrive in dynamic team environments.
           </p>
         </div>
         <div className="basis-full py-6 sm:flex-1 sm:px-3">
