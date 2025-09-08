@@ -11,15 +11,16 @@ const About = () => {
             <br></br>A dedicated junior front-end React developer with a passion
             for crafting seamless digital experiences. I embrace the fusion of
             creativity and precision, focusing on creating responsive,
-            accessible, and aesthetically pleasing web applications. I relish
-            the opportunity to contribute to innovative projects and thrive in
-            dynamic team environments.
+            accessible, and aesthetically pleasing web applications, while also
+            having experience with backend development to build full-stack
+            solutions. I relish the opportunity to contribute to innovative
+            projects and thrive in dynamic team environments.
           </p>
         </div>
         <div className="basis-full py-6 sm:flex-1 sm:px-3">
           <div className="fading-border-to-c relative mb-3 flex items-center justify-between pb-3">
             <h2 className="bg-green px-2 py-0.5 text-sm text-white">Age:</h2>
-            <p>24</p>
+            <p>25</p>
           </div>
           <div className="fading-border-to-c relative mb-3 flex items-center justify-between pb-3">
             <h2 className="bg-green px-2 py-0.5 text-sm text-white">

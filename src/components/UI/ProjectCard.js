@@ -35,7 +35,7 @@ const ProjectCard = ({
         {title}
       </h1>
       <p className="mb-5 leading-7 text-lightBlack">{desc}</p>
-      <div className="mb-5 flex items-center justify-center gap-2">
+      <div className="mb-5 flex flex-wrap items-center justify-center gap-2">
         {programs.map((program) => (
           <span className="border px-2 py-1 shadow">{program}</span>
         ))}

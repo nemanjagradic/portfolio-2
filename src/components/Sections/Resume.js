@@ -62,6 +62,11 @@ const Resume = () => {
             position="The Complete Javascript Course"
             place="Udemy - Jonas Schmedtmann"
           />
+          <ResumeCard
+            age={{ from: "2024", to: " 2025" }}
+            position="Complete Node.js, Express & MongoDB Bootcamp"
+            place="Udemy - Jonas Schmedtmann"
+          />
         </div>
         <div className="sm:fading-border-to-b relative sm:pl-4 sm:pr-8">
           <h1 className="fading-border-to-c relative mb-5 flex items-center py-6 font-semibold uppercase">
@@ -80,7 +85,7 @@ const Resume = () => {
             <div className="basis-2/5">
               <div className="m-auto w-[100px] sm:w-full">
                 <CircleProgress valueEnd={75} />
-                <p className="mt-2 text-center text-sm">React / Javascript</p>
+                <p className="mt-2 text-center text-sm">React / JavaScript</p>
               </div>
             </div>
             <div className="basis-2/5">
@@ -93,6 +98,14 @@ const Resume = () => {
               <div className="m-auto w-[100px] sm:w-full">
                 <CircleProgress valueEnd={80} />
                 <p className="mt-2 text-center text-sm">SASS / Tailwind</p>
+              </div>
+            </div>
+            <div className="basis-2/5">
+              <div className="m-auto w-[100px] sm:w-full">
+                <CircleProgress valueEnd={50} />
+                <p className="mt-2 text-center text-sm">
+                  Node.js / Express / MongoDB
+                </p>
               </div>
             </div>
           </div>
