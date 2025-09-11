@@ -19,7 +19,7 @@ const Projects = () => {
               "Mongo DB",
             ]}
             githubLink="https://github.com/nemanjagradic/miini-e-commerce"
-            netlifyLink="https://miini-frontend.onrender.com/"
+            netlifyLink="https://miini-e-commerce.onrender.com/"
           />
           <ProjectCard
             projectImg="./images/project-4.png"
