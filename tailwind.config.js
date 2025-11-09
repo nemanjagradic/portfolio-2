@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        green: "#78cc6d",
-        lightBlack: "#646464",
-        darkerBlack: "#323232",
+        buttonToggleBackground: "var(--bg-buttonToggle)",
+        primaryBackground: "var(--primary-background)",
+        primaryText: "var(--primary-text)",
+        secondaryText: "var(--secondary-text)",
+        accent: "var(--accent-color)",
       },
       fontFamily: {
         Roboto: ["Roboto", "sans-serif"],

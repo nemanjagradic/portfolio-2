@@ -12,15 +12,15 @@ const Navigation = ({ curSection, changeSection }) => {
   ];
 
   return (
-    <div className="z-20 mr-2.5 w-full rounded bg-white text-lightBlack sm:w-20">
+    <div className="bg-primaryBackground text-secondaryText z-20 mr-2.5 w-full rounded sm:w-20">
       <ul className="flex list-none text-xs uppercase sm:block sm:divide-y">
         {navLinks.map((navLink, i) => (
           <li
             key={navLink.link}
             onClick={changeSection.bind(null, navLink.link)}
-            className={`flex-1 cursor-pointer bg-white py-4 font-semibold sm:px-0 ${
-              curSection === navLink.link ? "text-green" : ""
-            } text-center transition hover:text-green ${
+            className={`bg-primaryBackground flex-1 cursor-pointer py-4 font-semibold sm:px-0 ${
+              curSection === navLink.link ? "text-accent" : ""
+            } hover:text-accent text-center transition ${
               i === 0 ? "sm:rounded-t" : ""
             } ${i === navLinks.length - 1 ? "sm:rounded-b" : ""}`}
           >

@@ -26,7 +26,7 @@ const Sections = ({ curSection }) => {
               curSection === section
                 ? "large:animate-fadeIn"
                 : "large:animate-fadeOut"
-            } float-right mt-4 h-full w-full rounded bg-white sm:w-[87%] large:absolute large:mt-0 large:w-full large:overflow-y-auto large:rounded-none`}
+            } bg-primaryBackground float-right mt-4 h-full w-full rounded sm:w-[87%] large:absolute large:mt-0 large:w-full large:overflow-y-auto large:rounded-none`}
           >
             {sectionComponents[section]}
           </div>

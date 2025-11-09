@@ -15,10 +15,10 @@ const CircleProgress = ({ valueEnd }) => {
             },
             path: {
               strokeLinecap: "butt",
-              stroke: "#78cc6d",
+              stroke: "var(--accent-color)",
             },
             text: {
-              fill: "#000",
+              fill: "var(--primary-text)",
             },
           }}
           text={`${value}%`}

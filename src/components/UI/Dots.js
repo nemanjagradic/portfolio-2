@@ -9,7 +9,7 @@ const Dots = ({ percentage }) => {
       <span
         key={index}
         className={`h-3.5 w-3.5 rounded-full ${
-          index < greenDots ? "bg-green" : "bg-gray-300"
+          index < greenDots ? "bg-accent" : "bg-gray-300"
         }`}
       ></span>,
     );

@@ -21,17 +21,17 @@ const Contact = () => {
       ></iframe>
       <div className="flex flex-wrap items-center sm:justify-between">
         <div className="fading-border-to-c relative mb-2 basis-full items-center justify-between pb-3 sm:basis-[45%] sm:pb-1">
-          <h2 className="mb-1 w-fit bg-green px-2 py-0.5 text-sm text-white">
+          <h2 className="bg-accent mb-1 w-fit px-2 py-0.5 text-sm text-white">
             Address:
           </h2>
-          <p className="text-sm text-lightBlack">Belgrade, Serbia</p>
+          <p className="text-secondaryText text-sm">Belgrade, Serbia</p>
         </div>
         <div className="fading-border-to-c relative mb-2 basis-full items-center justify-between pb-3 sm:basis-[45%] sm:pb-1">
-          <h2 className="mb-1 mr-2.5 w-fit bg-green px-2 py-0.5 text-sm text-white">
+          <h2 className="bg-accent mb-1 mr-2.5 w-fit px-2 py-0.5 text-sm text-white">
             Email:
           </h2>
           <a
-            className="cursor-pointer text-sm text-lightBlack transition hover:text-green"
+            className="text-secondaryText hover:text-accent cursor-pointer text-sm transition"
             href={`mailto:${emailAddress}`}
             onClick={handleEmailClick}
           >
@@ -41,21 +41,21 @@ const Contact = () => {
       </div>
       <div className="flex flex-wrap items-center justify-between">
         <div className="fading-border-to-c relative mb-2 basis-full items-center justify-between pb-3 sm:basis-[45%] sm:pb-1">
-          <h2 className="mb-1 w-fit bg-green px-2 py-0.5 text-sm text-white">
+          <h2 className="mb-1 w-fit bg-[#3c8136] px-2 py-0.5 text-sm text-white">
             Phone:
           </h2>
-          <p className="text-sm text-lightBlack">+381 628155263</p>
+          <p className="text-secondaryText text-sm">+381 628155263</p>
         </div>
         <div className="fading-border-to-c relative mb-2 basis-full items-center justify-between pb-3 sm:basis-[45%] sm:pb-1">
-          <h2 className="mb-1 w-fit bg-green px-2 py-0.5 text-sm text-white">
+          <h2 className="bg-accent mb-1 w-fit px-2 py-0.5 text-sm text-white">
             Social Networks:
           </h2>
-          <p className="text-darkerBlack">
+          <p className="text-primaryText">
             <a
               href="https://github.com/nemanjagradic"
               target="_blank"
               rel="noreferrer"
-              className="mr-2.5 inline-block cursor-pointer transition hover:text-green"
+              className="hover:text-accent mr-2.5 inline-block cursor-pointer transition"
             >
               <FaGithub />
             </a>
@@ -63,7 +63,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/nemanja-gradic-33230b1bb/"
               target="_blank"
               rel="noreferrer"
-              className="mr-2.5 inline-block cursor-pointer transition hover:text-green"
+              className="hover:text-accent mr-2.5 inline-block cursor-pointer transition"
             >
               <FaLinkedinIn />
             </a>
@@ -71,7 +71,7 @@ const Contact = () => {
               href="https://www.instagram.com/conee_g/"
               target="_blank"
               rel="noreferrer"
-              className="inline-block cursor-pointer transition hover:text-green"
+              className="hover:text-accent inline-block cursor-pointer transition"
             >
               <FaInstagram />
             </a>

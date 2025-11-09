@@ -11,6 +11,32 @@ body {
 }
 
 @layer base {
+  :root {
+    --bg-buttonToggle: theme("colors.gray.200");
+    --bodyGradient-start: #8a9393;
+    --bodyGradient-end: #78cc6d;
+    --frameGradient-start: #78cc6d66;
+    --frameGradient-end: #78cc6d03;
+    --primary-background: white;
+    --primary-text: #323232;
+    --secondary-text: #646464;
+    --accent-color: #78cc6d;
+    --accent-40: rgba(120, 204, 109, 0.4);
+  }
+
+  .dark {
+    --bg-buttonToggle: theme("colors.gray.700");
+    --bodyGradient-start: #121818;
+    --bodyGradient-end: #1f5230;
+    --frameGradient-start: #256d3b88;
+    --frameGradient-end: #256d3b11;
+    --primary-background: #121818;
+    --primary-text: theme("colors.gray.100");
+    --secondary-text: theme("colors.gray.300");
+    --accent-color: #3c8136;
+    --accent-40: rgba(60, 129, 54, 0.4);
+  }
+
   .fading-border-to-r {
     @apply after:border-gradient-to-right after:absolute after:-left-7 after:bottom-0 after:h-[1px] after:w-full after:content-[''];
   }
@@ -23,6 +49,20 @@ body {
 }
 
 @layer components {
+  .body-bg {
+    background: linear-gradient(
+      to bottom right,
+      var(--bodyGradient-start),
+      var(--bodyGradient-end)
+    );
+  }
+  .frame-bg {
+    background: linear-gradient(
+      to bottom,
+      var(--frameGradient-start),
+      var(--frameGradient-end)
+    );
+  }
   .border-gradient-to-right {
     background: linear-gradient(to right, #bababa, transparent 85%);
   }
