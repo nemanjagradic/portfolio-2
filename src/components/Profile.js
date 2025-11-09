@@ -11,24 +11,24 @@ const Profile = ({ changeSection, curSection }) => {
         <div className="relative z-10 mt-4 h-full w-full shadow-[10px_5px_15px_rgba(0,0,0,0.05)] large:mt-0">
           <div className="frame-bg absolute -left-4 -top-4 z-[-1] h-full w-full rounded"></div>
           <div className="h-full">
-            <div className="before:bg-primaryBackground after:bg-primaryBackground relative h-[60%] w-full overflow-hidden rounded-t before:absolute before:-bottom-[86%] before:-left-[130px] before:z-10 before:h-full before:w-[85%] before:rotate-[14deg] before:content-[''] after:absolute after:-bottom-[86%] after:-right-[130px] after:z-10 after:h-full after:w-[85%] after:-rotate-[14deg] after:content-['']">
+            <div className="relative h-[60%] w-full overflow-hidden rounded-t before:absolute before:-bottom-[86%] before:-left-[130px] before:z-10 before:h-full before:w-[85%] before:rotate-[14deg] before:bg-primaryBackground before:content-[''] after:absolute after:-bottom-[86%] after:-right-[130px] after:z-10 after:h-full after:w-[85%] after:-rotate-[14deg] after:bg-primaryBackground after:content-['']">
               <img
-                className="h-full w-full"
+                className="h-full w-full object-cover"
                 src="./images/portfolio-img.jpeg"
                 alt="profile"
               />
             </div>
-            <div className="bg-primaryBackground flex h-[40%] flex-col rounded-b">
+            <div className="flex h-[40%] flex-col rounded-b bg-primaryBackground">
               <div className="fading-border-to-c relative flex-1 text-center">
-                <h1 className="text-primaryText pt-5 text-center text-3xl font-semibold tracking-wide">
+                <h1 className="pt-5 text-center text-3xl font-semibold tracking-wide text-primaryText">
                   Nemanja Gradic
                 </h1>
-                <h2 className="text-accent mb-4 mt-2.5">Front-End Developer</h2>
+                <h2 className="mb-4 mt-2.5 text-accent">Front-End Developer</h2>
                 <a
                   href="https://www.linkedin.com/in/nemanja-gradic-33230b1bb/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-primaryText hover:text-accent mx-2 inline-block cursor-pointer text-lg transition"
+                  className="mx-2 inline-block cursor-pointer text-lg text-primaryText transition hover:text-accent"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -36,14 +36,14 @@ const Profile = ({ changeSection, curSection }) => {
                   href="https://github.com/nemanjagradic"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-primaryText hover:text-accent mx-2 inline-block cursor-pointer text-lg transition"
+                  className="mx-2 inline-block cursor-pointer text-lg text-primaryText transition hover:text-accent"
                 >
                   <FaGithub />
                 </a>
               </div>
               <div
                 onClick={changeSection.bind(null, "Contact")}
-                className="text-primaryText hover:text-accent group w-full cursor-pointer py-5 text-center transition duration-300"
+                className="group w-full cursor-pointer py-5 text-center text-primaryText transition duration-300 hover:text-accent"
               >
                 <p className="text-sm font-semibold uppercase tracking-wider">
                   <span className="mr-2 group-hover:mr-4">Contact Me</span>
