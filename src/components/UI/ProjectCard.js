@@ -31,13 +31,13 @@ const ProjectCard = ({
           ></img>
         </div>
       </a>
-      <h1 className="text-primaryText group-hover:text-accent my-2.5 text-lg font-semibold duration-300">
+      <h1 className="my-2.5 text-lg font-semibold text-primaryText duration-300 group-hover:text-accent">
         {title}
       </h1>
-      <p className="text-secondaryText mb-5 leading-7">{desc}</p>
+      <p className="mb-5 leading-7 text-secondaryText">{desc}</p>
       <div className="mb-5 flex flex-wrap items-center justify-center gap-2">
         {programs.map((program) => (
-          <span className="text-primaryText border px-2 py-1 shadow">
+          <span className="border px-2 py-1 text-primaryText shadow">
             {program}
           </span>
         ))}
@@ -47,7 +47,7 @@ const ProjectCard = ({
           href={githubLink}
           target="_blank"
           rel="noreferrer"
-          className="text-primaryText hover:text-accent mr-6 flex cursor-pointer items-center transition"
+          className="mr-6 flex cursor-pointer items-center text-primaryText transition hover:text-accent"
         >
           Code
           <span href={githubLink} className="inline-block">
@@ -58,7 +58,7 @@ const ProjectCard = ({
           href={netlifyLink}
           target="_blank"
           rel="noreferrer"
-          className="text-primaryText hover:text-accent flex cursor-pointer items-center transition"
+          className="flex cursor-pointer items-center text-primaryText transition hover:text-accent"
         >
           Live Demo
           <span className="inline-block">

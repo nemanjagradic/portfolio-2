@@ -8,18 +8,18 @@ const Projects = () => {
       <div className="flex flex-wrap">
         <div className="sm:fading-border-to-b relative h-full basis-full sm:flex-1">
           <ProjectCard
-            projectImg="./images/project-1.png"
-            title="Miini - E-Commerce Website"
-            desc="A full-stack e-commerce app designed to help users quickly find and purchase products with ease."
+            projectImg="./images/project-6.png"
+            title="ChatFlux - Real-Time Chat Application"
+            desc="A real-time chat application with direct and group messaging, live delivery and read receipts, desktop notifications, and session management across devices."
             programs={[
-              "React",
+              "Next.js",
+              "Socket.io",
               "Tailwind CSS",
-              "Node.js",
-              "Express",
+              "Typescript",
               "Mongo DB",
             ]}
-            githubLink="https://github.com/nemanjagradic/miini-e-commerce"
-            netlifyLink="https://miini-e-commerce.onrender.com/"
+            githubLink="https://github.com/nemanjagradic/chat-flux"
+            netlifyLink="https://chat-flux.up.railway.app/"
           />
           <ProjectCard
             projectImg="./images/project-3.png"
@@ -39,6 +39,20 @@ const Projects = () => {
           />
         </div>
         <div className="h-full basis-full sm:flex-1">
+          <ProjectCard
+            projectImg="./images/project-1.png"
+            title="Miini - E-Commerce Website"
+            desc="A full-stack e-commerce app designed to help users quickly find and purchase products with ease."
+            programs={[
+              "React",
+              "Tailwind CSS",
+              "Node.js",
+              "Express",
+              "Mongo DB",
+            ]}
+            githubLink="https://github.com/nemanjagradic/miini-e-commerce"
+            netlifyLink="https://miini-e-commerce.onrender.com/"
+          />
           <ProjectCard
             projectImg="./images/project-4.png"
             title="Realestate.com - Real Estate Website"
